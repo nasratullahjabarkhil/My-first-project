@@ -1,0 +1,33 @@
+body {
+    background-color: darkgrey;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    text-align: center;
+}
+.container{
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial;
+}
+.box{
+    width: 100%;
+}
+.country{
+    width: 35%;
+}
+.learn{
+    width: 35%;
+}
+.button{
+    width: 100%;
+    background-color: green;    }
+.message{
+    width: 100%;
+    height: 100px;
+}

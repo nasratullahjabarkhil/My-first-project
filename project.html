@@ -1,69 +1,115 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <title>M First WEb Page</title>
-</head>
-<body>
-    <header>
-        <h1>This is header tag</h1>
-    </header>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registering Form</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css" >
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1>MFR Registering From</h1>
+                <p>This is MFR registering form for new remote students, please fill the below form</p>
+            </div>
+        </header>
+        <div class="container">
+            <form action="urñ" method="POST">
+                <div>
+                    <label for="fname">First Name</label>
+                </div>
+                <div>
+                    <input type="text" id="fname" name="first name" placeholder="Enter your first name" required class="box">
+                </div>
+                <div>
+                    <label for="lname">Last name</label>
+                </div>
+                <div>
+                    <input type="text" id="lname" name="last name" placeholder="Enter your last name" required class="box">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input type="text" id="email" name="email" placeholder="Enter your Email" required class="box">
+                </div>
+                <div>
+                    <label for="age">Age (optional)</label>
+                </div>
+                <div>
+                    <input type="text" id="age" name="age" placeholder="Enter your age" class="box">
+                </div>
+                <div>
+                    <label for="country-label">Where are you from?</label>
+                </div>
+                <div>
+                    <select name="country" id="country-label" class="country">
+                        <option>Afghanistan</option>
+                        <option>Siria</option>
+                        <option>Iraq</option>
+                        <option>Lebanon</option>
+                        <option>Yemen</option>
+                        <option>Morocco</option>
+                        <option>Palestine</option>
+                        <option selected>Spain</option>
+                    </select>
+                </div>           
+                <div>How did you find us?</div>
+                <div>
+                    <input type="radio" id="web-label" name="find-us">
+                    <label for="web-label">Web page</label>
+                </div>
+                <div>
+                    <input type="radio" id="friend-label" name="find-us">
+                    <label for="friend-label">My Frind</label>
+                </div>
+                <div>
+                    <input type="radio" id="social-label" name="find-us">
+                    <label for="social-label">Social media</label>
+                </div>          
+                <div>
+                    <label for="study-label">What do you want to learn?</label>
+                </div>
+                <div>
+                    <select name="study" id="study-label" class="learn">
+                        <option>HTML5</option>
+                        <option>CSS3</option>
+                        <option>JavaScript</option>
+                        <option>Phyton</option>
+                        <option>jQuery</option>
+                        <option>PHP</option>
+                        <option>C++</option>
+                    </select>
+                </div>          
+                <div>What is your availability?</div>
+                <div>
+                    <input type="checkbox" id="monday-label" name="days">
+                    <label for="monday-label">Monday</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="tuesday-label" name="days">
+                    <label for="tuesday-label">Tuesday</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="wednesday-label" name="days">
+                    <label for="wednesday-label">Wednesday</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="thursday-label" name="days">
+                    <label for="thursday-label">Thursday</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="friday-label" name="days">
+                    <label for="friday-label">Friday</label>
+                </div>
+                <div>
+                    <label for="message">Write your message</label>
+                    <textarea name="message" id="message" class="message"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="button">Submit</button>
+                </div>
+            </form>
+        </div>
 
-    <nav>
-        <p>This is Nav tag</p>
-        <ol>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Gallery</li>
-            <li>About Us</li>
-            <li>Contact</li>
-        </ol>
-    </nav>
-
-    <aside>
-        <blockquote>This is aside tag</blockquote>
-        <blockquote>Content 1</blockquote>
-        <blockquote>content 2</blockquote>
-        <blockquote>content 3</blockquote>
-    </aside>
-
-    <section>
-        <article>
-            <header>
-                <hgroup>
-                    <h1>Header of article 1</h1>
-                    <h2>Subtilte of article 1</h2>
-                </hgroup>
-            </header>
-                <p>Article 1</p>
-                <p>This is Article 1</p>
-                <p>This is the end of article 1</p>
-            <footer>
-                <p>this is the footer of article 1 or commenmts of the users</p>
-            </footer>
-        </article>
-
-        <article>
-            <header>
-                <h1>Header of article 2</h1>
-            </header>
-                <p>Article 2</p>
-                <p>This is Article 2</p>
-                <p>This is the end of article 2</p>
-            <footer>
-                <p>this is the footer of article 2 or comments of the users</p>
-            </footer>
-        </article>
-    </section>
-
-    <footer>
-         <strong><b>This is the footer Copy Right tlf:876543465</b></strong>
-    </footer>
-
-
-
-</body>
-
-
-
+    </body>
 </html>
